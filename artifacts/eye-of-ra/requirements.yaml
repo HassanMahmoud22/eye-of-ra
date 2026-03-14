@@ -1,0 +1,11 @@
+packages:
+  "framer-motion": "For premium, smooth scroll and reveal animations essential for a luxury B2B brand"
+  "react-hook-form": "For robust handling of contact and complex project inquiry forms"
+  "@hookform/resolvers": "Zod validation integration with react-hook-form for lead capture"
+
+images: []
+
+notes:
+  - "Using provided local @assets for all imagery as specified."
+  - "Relying on @workspace/api-client-react for TanStack Query hooks (useCreateLead, useGetStats)."
+  - "The API server needs to handle CORS and proper endpoint routing at /api."

@@ -1,15 +1,18 @@
 openapi: 3.1.0
 info:
-  # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: Eye of Ra API specification
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: leads
+    description: Lead capture and management
+  - name: content
+    description: Public content endpoints
 paths:
   /healthz:
     get:
@@ -24,6 +27,44 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /leads:
+    post:
+      operationId: createLead
+      tags: [leads]
+      summary: Submit a lead inquiry
+      description: Captures a new lead from the website contact or project forms
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateLeadRequest"
+      responses:
+        "201":
+          description: Lead created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeadResponse"
+        "400":
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /content/stats:
+    get:
+      operationId: getStats
+      tags: [content]
+      summary: Get company statistics
+      description: Returns key metrics for the stats section
+      responses:
+        "200":
+          description: Stats retrieved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StatsResponse"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +74,73 @@ components:
           type: string
       required:
         - status
-
+    CreateLeadRequest:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [contact, project, sourcing, consulting, partnership]
+        companyName:
+          type: string
+        contactName:
+          type: string
+        email:
+          type: string
+          format: email
+        phone:
+          type: string
+        country:
+          type: string
+        brandName:
+          type: string
+        inquiryCategory:
+          type: string
+        estimatedOrderVolume:
+          type: string
+        message:
+          type: string
+        sourcePage:
+          type: string
+      required:
+        - type
+        - contactName
+        - email
+        - message
+    LeadResponse:
+      type: object
+      properties:
+        id:
+          type: integer
+        message:
+          type: string
+        success:
+          type: boolean
+      required:
+        - id
+        - message
+        - success
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+        details:
+          type: string
+      required:
+        - error
+    StatsResponse:
+      type: object
+      properties:
+        yearsExperience:
+          type: integer
+        countriesServed:
+          type: integer
+        factoryPartners:
+          type: integer
+        projectsCompleted:
+          type: integer
+      required:
+        - yearsExperience
+        - countriesServed
+        - factoryPartners
+        - projectsCompleted

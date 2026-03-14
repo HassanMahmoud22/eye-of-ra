@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Eye of Ra"
+version = "1.0.0"
+id = "artifacts/eye-of-ra"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 19455
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/eye-of-ra run dev"
+
+[services.env]
+PORT = "19455"
+BASE_PATH = "/"
+
+[services.production]
+build = ["pnpm", "--filter", "@workspace/eye-of-ra", "run", "build"]
+publicDir = "artifacts/eye-of-ra/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"

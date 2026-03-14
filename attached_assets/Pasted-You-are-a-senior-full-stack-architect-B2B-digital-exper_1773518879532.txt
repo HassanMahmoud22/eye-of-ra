@@ -1,0 +1,1170 @@
+You are a senior full-stack architect, B2B digital experience strategist, technical product planner, and premium brand website consultant.
+
+I want you to plan and build a premium corporate website for a company called:
+
+Eye of Ra
+
+This is NOT a tourism company.
+
+Eye of Ra is an Egyptian Textile Sourcing & Brand Consulting Agency founded in 2021. The company acts as a strategic bridge between factories and brands, both local and international, and provides end-to-end garment production support from initial design through final packaging.
+
+I want a full professional build prompt that includes the business context, UX direction, website structure, technical architecture, backend planning, frontend planning, admin planning, SEO planning, animation direction, CMS/content handling, database entity planning, APIs, deployment thinking, and phased implementation plan.
+
+IMPORTANT RULES:
+- Build this as a real business website concept, not a generic landing page.
+- The output must be startup-grade, investor-ready, and agency-quality.
+- The website should feel premium, credible, modern, globally competitive, and visually polished.
+- Do NOT misunderstand the business as tourism, e-commerce, or a direct factory website.
+- Eye of Ra is a strategic sourcing and consulting company.
+- It is a B2B business.
+- It helps brands source, consult, monitor, and manage production in Egypt.
+
+VERY IMPORTANT OUTPUT MODE:
+- I want the project planned in full detail.
+- You can include structure, architecture, routes, entities, modules, API planning, and implementation guidance.
+- If code is generated later, it should follow the structure defined here.
+- The plan should be detailed enough that a team can start building from it directly.
+
+I will attach branding documents later.
+Those may include:
+- logo
+- color palette
+- typography direction
+- presentation materials
+- visual identity guide
+- brand references
+- moodboards
+- sample imagery direction
+
+So the architecture and design system must be branding-aware and ready to absorb those materials later.
+
+==================================================
+1. COMPANY UNDERSTANDING
+==================================================
+
+Use this business understanding as the source of truth.
+
+Company Name:
+Eye of Ra
+
+Business Type:
+Egyptian Textile Sourcing & Brand Consulting Agency
+
+Founded:
+2021
+
+Business Model:
+Eye of Ra acts as a strategic bridge between brands and trusted Egyptian factories.
+
+It provides end-to-end support across:
+- technical design guidance
+- sourcing
+- production monitoring
+- quality control
+- costing support
+- factory matching
+- packaging and finishing guidance
+- export-readiness support
+
+Geographic Position:
+Based in Egypt and serving both local and international clients.
+
+Client Context:
+Eye of Ra serves Egyptian brands and international clients across the US and Europe.
+
+Known brand references include:
+- Tie House
+- Town Team
+- Concrete
+- Kham
+
+==================================================
+2. CORE SERVICE PILLARS
+==================================================
+
+The website must clearly communicate two main service pillars.
+
+A) Consulting — From Sketch to Shelf
+
+This includes:
+- technical design
+- tech packs
+- measurements
+- garment construction methods
+- production monitoring (WIP)
+- regular factory visits
+- production tracking
+- error prevention
+- costing and manufacturing recommendations
+- C&M optimization
+- trims cost recommendations
+- quality assurance
+- raw material inspection
+- sewing inspection
+- finishing inspection
+- international standards compliance
+
+B) Sourcing — Materials That Make a Statement
+
+This includes:
+- premium natural fibers
+- organic Egyptian cotton
+- high-performance synthetics
+- trims and accessories sourcing
+- zippers
+- labels
+- threads
+- packaging
+- sustainable textile solutions
+- factory matching
+- trusted audited production partner access
+
+==================================================
+3. COMPETITIVE ADVANTAGES TO COMMUNICATE
+==================================================
+
+The website must strongly communicate these differentiators.
+
+Vertical Integration:
+Egypt has a strong textile infrastructure that enables:
+- fabrics
+- zippers
+- threads
+- labels
+- packaging
+- garment manufacturing
+to be sourced locally with reduced lead times.
+
+Duty-Free Export Access:
+Communicate the value of:
+- QIZ for duty-free export to USA
+- EURO1 for Europe
+- EUROMED for Mediterranean countries
+- Agadir and COMESA for Arab, African, and regional trade opportunities
+
+Strategic Geographic Location:
+Egypt is a logistics hub connecting Africa, Asia, and Europe.
+
+Sustainability:
+Eye of Ra has proven sustainable sourcing and textile development capabilities demonstrated in real client work.
+
+Relationships and Network:
+The chairman has 25+ years of textile relationships across:
+- USA
+- Europe
+- China
+- Turkey
+- Italy
+
+==================================================
+4. FOUNDER STORY TO INTEGRATE
+==================================================
+
+Founder & Chairman:
+Eissa Mohamed
+
+Career history to be used for credibility storytelling:
+
+1999–2006:
+Egyptian Clothing Company
+Produced dress shirts for PVH Corporation, parent of Calvin Klein and Tommy Hilfiger.
+
+2006–2015:
+Swiss Garments
+This period built deep sourcing expertise and international relationships through travel and work across USA, China, Turkey, and Italy.
+Exposure included Macy's, Banana Republic, and Hugo Boss.
+
+2015–2019:
+Calvin Klein
+Brand Manager role.
+
+2019–2020:
+ATUM Sportswear
+Founded his own sportswear brand, proving entrepreneurial execution.
+
+2021–Present:
+Eye of Ra
+Built a sourcing and consulting agency combining technical excellence and strategic brand guidance.
+
+The founder story should be used to build trust, industry authority, and market credibility.
+
+==================================================
+5. WEBSITE GOAL
+==================================================
+
+The website must position Eye of Ra as:
+- a strategic sourcing partner
+- a garment production consulting expert
+- a bridge between brands and Egyptian manufacturers
+- a trusted production management layer
+- an export-ready textile consulting company
+- a premium Egyptian B2B partner for fashion brands
+
+The website should help convert visitors into:
+- inbound leads
+- project inquiries
+- sourcing inquiries
+- partnership requests
+- consultation requests
+
+==================================================
+6. TARGET AUDIENCE
+==================================================
+
+Primary target users:
+- apparel brands
+- sourcing managers
+- production managers
+- fashion startups
+- private label founders
+- global fashion labels
+- international buyers
+- entrepreneurs launching fashion products
+- sustainability-focused brands
+- investors or partners exploring Egypt textile manufacturing
+
+==================================================
+7. EXPERIENCE DIRECTION
+==================================================
+
+The experience should feel:
+- premium
+- authoritative
+- modern
+- elegant
+- industrial but refined
+- globally competitive
+- confident
+- strategic
+- not noisy
+- not flashy in a cheap way
+
+This should feel closer to:
+- premium consulting firms
+- high-end manufacturing groups
+- brand strategy agencies
+- international supply chain partners
+
+The user should immediately feel:
+- trust
+- expertise
+- control
+- process maturity
+- quality discipline
+- access to a valuable network
+
+==================================================
+8. VISUAL AND MOTION DIRECTION
+==================================================
+
+The site should include meaningful premium motion, but motion must support credibility.
+
+Motion direction:
+- smooth reveal animations
+- section transitions
+- elegant hover states
+- timeline motion
+- process flow animation
+- animated diagrams
+- subtle number counters
+- layered visual transitions
+- premium scroll interactions
+- animated trust/credibility blocks
+- responsive motion-safe mobile simplification
+
+Avoid:
+- game-like effects
+- excessive floating random elements
+- childish movement
+- noisy flashy animation
+
+Use motion to support:
+- process clarity
+- service sophistication
+- founder credibility
+- network trust
+- industry scale
+- premium perception
+
+==================================================
+9. BRANDING INTEGRATION
+==================================================
+
+I will attach branding materials later, so create the system to support:
+- color tokens
+- typography tokens
+- logo variations
+- image direction
+- iconography style
+- section mood rules
+- background and texture system
+- data visualization style
+- CTA hierarchy
+
+The site architecture must have a clean branding-aware design layer so that later brand assets can be integrated without major refactoring.
+
+==================================================
+10. TECH STACK
+==================================================
+
+Frontend Web:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- App Router
+- Component-driven architecture
+- SEO-friendly architecture
+- Strong reusable section system
+- Motion-ready structure
+- API service layer
+- content-driven page architecture
+
+Animation / Interaction:
+- Framer Motion or equivalent motion library for premium interactions
+- scroll-triggered animations where relevant
+- route/page transition support if suitable
+- motion wrappers and reusable transition patterns
+
+Backend:
+- Golang
+- REST API first
+- production-ready modular architecture
+- JWT auth for admin area
+- PostgreSQL
+- clean layering
+- configuration-driven setup
+- structured logging
+- validation
+- repository layer
+- middleware
+- admin authentication
+- media metadata handling
+- clean API versioning strategy
+
+Database:
+- PostgreSQL
+
+Recommended Go Stack Direction:
+- Gin or Echo for HTTP routing
+- GORM or SQLC / pgx depending on preferred architecture
+- Viper or equivalent for configuration
+- Zap or Zerolog for structured logging
+- JWT auth middleware
+- validator package for request validation
+- migration tool support
+- Docker-ready setup
+
+Deployment Thinking:
+- Frontend deployable on Vercel
+- Backend deployable on Docker / VPS / DigitalOcean / cloud VM
+- environment-based config
+- CDN-friendly frontend assets
+- media strategy should be abstraction-friendly for later object storage integration
+
+==================================================
+11. FRONTEND ARCHITECTURE REQUIREMENTS
+==================================================
+
+Plan the frontend as a scalable Next.js application.
+
+The architecture should include:
+- app routing structure
+- public pages
+- admin frontend area if needed
+- shared layout system
+- reusable section components
+- branding/theme layer
+- motion layer
+- API client layer
+- content presentation layer
+- SEO metadata layer
+- form handling layer
+- analytics/event tracking placeholders
+- responsive behavior plan
+- design tokens system
+- diagram and trust visualization support
+
+The frontend must be structured to support:
+- strong storytelling home page
+- editorial content blocks
+- service detail pages
+- founder story page
+- case studies
+- insights/articles
+- contact and project-start forms
+- structured B2B lead capture
+- future multilingual support readiness
+
+==================================================
+12. BACKEND ARCHITECTURE REQUIREMENTS
+==================================================
+
+Plan the backend as a clean modular Golang application.
+
+It should have:
+- API versioning
+- modular domain organization
+- separated config layer
+- controllers / handlers
+- use cases / services
+- repository layer
+- models / entities
+- DTOs / request-response schemas
+- middleware
+- auth module
+- content management module
+- lead management module
+- media metadata support
+- SEO content support
+- admin support
+- structured logging
+- health checks
+- environment-driven configuration
+- graceful shutdown
+- database migration support
+- validation and error handling standards
+
+==================================================
+13. ROOT PROJECT STRUCTURE
+==================================================
+
+Use two main folders only:
+
+/frontend
+/backend
+
+Do not mix frontend and backend code in one folder.
+
+Recommend a professional root-level structure including items such as:
+- docs
+- deployment
+- environment examples
+- architecture notes
+- branding assets placeholder
+- scripts if needed
+- README planning
+
+==================================================
+14. FRONTEND FOLDER STRUCTURE
+==================================================
+
+Create a detailed recommended frontend structure for a Next.js app using App Router.
+
+Include concepts such as:
+- app/
+- components/
+- features/
+- sections/
+- lib/
+- hooks/
+- services/
+- types/
+- styles/
+- theme/
+- constants/
+- content/
+- public/
+- animations/
+- providers/
+
+Pages to support:
+- Home
+- About
+- Services
+- Consulting Services
+- Sourcing Services
+- Egypt Textile Advantage
+- Duty-Free Export Access
+- Sustainability
+- Founder Story
+- Clients & Case Studies
+- Factory Network
+- Process / How It Works
+- Insights / Articles
+- Article Details
+- Contact
+- Start a Project
+
+Possible admin frontend pages if included:
+- Admin Login
+- Dashboard
+- Leads
+- Articles
+- Case Studies
+- Clients
+- Factories
+- Site Content
+- SEO / Metadata management
+
+==================================================
+15. BACKEND FOLDER STRUCTURE
+==================================================
+
+Create a detailed recommended backend structure for Golang.
+
+The backend should include clear modules such as:
+- auth
+- admins
+- leads
+- articles
+- case_studies
+- clients
+- factories
+- site_content
+- seo
+- media
+- settings
+- health
+
+Suggested layer separation:
+- cmd/
+- internal/
+- config/
+- api/
+- modules/
+- domain/
+- service/
+- repository/
+- middleware/
+- transport/
+- shared/
+- pkg/
+- migrations/
+
+Make it clean, scalable, and understandable for a real engineering team.
+
+==================================================
+16. WEBSITE ROUTE MAP
+==================================================
+
+Create a route map for all public website pages.
+
+Suggested public routes:
+- /
+- /about
+- /services
+- /services/consulting
+- /services/sourcing
+- /egypt-textile-advantage
+- /export-access
+- /sustainability
+- /founder
+- /clients-case-studies
+- /clients-case-studies/[slug]
+- /factory-network
+- /process
+- /insights
+- /insights/[slug]
+- /contact
+- /start-project
+
+Also define utility routes such as:
+- /privacy-policy
+- /terms
+- /404
+
+If admin UI is in frontend, define routes for:
+- /admin/login
+- /admin/dashboard
+- /admin/leads
+- /admin/articles
+- /admin/case-studies
+- /admin/clients
+- /admin/factories
+- /admin/site-content
+- /admin/seo
+
+==================================================
+17. FRONTEND COMPONENT MAP
+==================================================
+
+Create a clear map of reusable components.
+
+Examples:
+- Navbar
+- Footer
+- Hero sections
+- Split-content sections
+- Service cards
+- Industry statistics blocks
+- Trust badges
+- Process timeline
+- Founder story block
+- Case study cards
+- Client logo wall
+- Factory capability cards
+- Export program cards
+- Sustainability blocks
+- Article cards
+- CTA banners
+- Contact forms
+- Lead forms
+- Section headers
+- Animated metric counters
+- Diagram blocks
+- FAQ accordion
+- Quote/testimonial blocks
+- Page banners
+- Breadcrumbs
+- SEO helpers
+- motion wrappers
+- reveal components
+- hover interaction components
+
+Each component group should have a clear purpose.
+
+==================================================
+18. BACKEND MODULE MAP
+==================================================
+
+Define backend modules and their purpose.
+
+Examples:
+- Auth Module
+- Admin Module
+- Leads Module
+- Articles Module
+- Case Studies Module
+- Clients Module
+- Factories Module
+- Site Content Module
+- SEO Metadata Module
+- Media Metadata Module
+- Settings Module
+- Health Module
+
+For each module, define:
+- main responsibility
+- primary entities
+- typical actions
+- admin interaction needs
+- website/public interaction needs
+
+==================================================
+19. DATABASE ENTITY PLAN
+==================================================
+
+Define the conceptual database entity model only.
+Do not generate SQL yet.
+
+Include entities such as:
+
+Admins
+- id
+- name
+- email
+- password_hash
+- role
+- status
+- last_login_at
+- created_at
+- updated_at
+
+Leads
+- id
+- type
+- company_name
+- contact_name
+- email
+- phone
+- country
+- brand_name
+- inquiry_category
+- estimated_order_volume
+- message
+- source_page
+- status
+- assigned_to
+- created_at
+- updated_at
+
+Articles
+- id
+- title
+- slug
+- summary
+- body
+- featured_image
+- author
+- status
+- seo_title
+- seo_description
+- published_at
+- created_at
+- updated_at
+
+CaseStudies
+- id
+- title
+- slug
+- client_name
+- overview
+- challenge
+- solution
+- outcome
+- services_used
+- featured_image
+- gallery
+- seo_title
+- seo_description
+- published
+- created_at
+- updated_at
+
+Clients
+- id
+- name
+- logo
+- market
+- region
+- short_description
+- featured
+- created_at
+- updated_at
+
+Factories
+- id
+- name
+- specialization
+- location
+- capabilities
+- certifications
+- audited_status
+- short_profile
+- featured
+- created_at
+- updated_at
+
+SiteContent
+- id
+- key
+- section
+- value_json
+- page
+- created_at
+- updated_at
+
+SeoMetadata
+- id
+- page_type
+- reference_id
+- title
+- description
+- og_title
+- og_description
+- canonical_url
+- keywords
+- created_at
+- updated_at
+
+MediaAssets
+- id
+- file_name
+- file_type
+- alt_text
+- caption
+- url
+- storage_provider
+- metadata_json
+- created_at
+- updated_at
+
+Settings
+- id
+- key
+- value_json
+- updated_at
+
+Also suggest whether additional supporting tables are needed for:
+- tags
+- content blocks
+- categories
+- CTA configurations
+- page sections
+- audit logs
+
+==================================================
+20. API DESIGN REQUIREMENTS
+==================================================
+
+Plan the REST API structure.
+
+Use versioning:
+- /api/v1/...
+
+Define API groups for:
+- auth
+- admins
+- leads
+- articles
+- case studies
+- clients
+- factories
+- site content
+- seo
+- media
+- settings
+- health
+
+Examples of public endpoints:
+- GET public page content
+- GET articles
+- GET article by slug
+- GET case studies
+- GET case study by slug
+- GET featured clients
+- GET featured factories
+- POST contact lead
+- POST project inquiry
+
+Examples of admin endpoints:
+- login
+- CRUD content
+- CRUD articles
+- CRUD case studies
+- CRUD clients
+- CRUD factories
+- manage leads
+- manage SEO metadata
+- manage page content
+- manage settings
+
+Define:
+- auth requirements
+- validation expectations
+- pagination conventions
+- filtering and search expectations
+- standard response format
+- error structure
+- audit/admin sensitivity notes
+
+==================================================
+21. FORM AND LEAD CAPTURE STRATEGY
+==================================================
+
+Define the forms the site should support.
+
+Forms may include:
+- general contact form
+- start a project form
+- sourcing inquiry form
+- consulting inquiry form
+- partnership inquiry form
+
+Suggested fields:
+- company name
+- contact person
+- email
+- phone
+- country
+- brand name
+- service interest
+- production stage
+- estimated volumes
+- timelines
+- notes
+
+Each form should:
+- validate inputs
+- submit to backend
+- save to database
+- support admin review
+- show clean success/error state
+- support source attribution for lead tracking
+
+==================================================
+22. ADMIN PANEL REQUIREMENTS
+==================================================
+
+Plan an admin dashboard to manage the website.
+
+The admin should be able to:
+- login securely
+- view dashboard summary
+- manage leads
+- manage site content blocks
+- manage service pages
+- manage founder content
+- manage articles
+- manage case studies
+- manage clients
+- manage factories
+- manage SEO metadata
+- manage media metadata
+- manage homepage sections
+- manage CTA texts and section content
+- manage visibility/featured flags
+
+Admin considerations:
+- role-based access can be simple in phase 1
+- auditability should be planned
+- dashboard should focus on lead visibility and content control
+
+==================================================
+23. CONTENT STRATEGY REQUIREMENTS
+==================================================
+
+The site should be content-capable, not just brochure pages.
+
+Support content such as:
+- service details
+- founder narrative
+- process explanation
+- export program explanation
+- sustainability story
+- case studies
+- insights/articles
+- factory network content
+- credibility blocks
+- trust and metrics sections
+
+Content architecture should support:
+- modular sections
+- editable pages
+- SEO metadata
+- featured content
+- future expansion without redesign
+
+==================================================
+24. SEO REQUIREMENTS
+==================================================
+
+The website must be SEO-friendly and content-structured.
+
+Requirements:
+- per-page metadata
+- dynamic metadata for articles and case studies
+- semantic HTML
+- structured heading hierarchy
+- clean slugs
+- image alt support
+- sitemap readiness
+- robots support
+- Open Graph support
+- canonical support
+- strong internal linking structure
+
+Also include B2B search intent thinking such as:
+- textile sourcing Egypt
+- garment manufacturing Egypt
+- private label production Egypt
+- apparel consulting Egypt
+- duty free textile export Egypt
+- Egyptian cotton sourcing
+- fashion sourcing partner Egypt
+
+==================================================
+25. DESIGN SYSTEM REQUIREMENTS
+==================================================
+
+Create a design system plan that includes:
+- color token structure
+- typography hierarchy
+- spacing scale
+- container rules
+- layout grid
+- section rhythm
+- CTA hierarchy
+- button variants
+- card patterns
+- form field patterns
+- trust and metric components
+- data/diagram visual styles
+- image treatment rules
+- iconography direction
+- animation language
+
+This should be designed so later branding documents can plug into it smoothly.
+
+==================================================
+26. MOTION SYSTEM REQUIREMENTS
+==================================================
+
+Create a dedicated premium motion system.
+
+It should define:
+- hero reveal motion
+- section reveal motion
+- process diagram animation
+- founder timeline motion
+- trust metric animation
+- case study card hover interaction
+- CTA attention behavior
+- page transition rules
+- scroll rhythm
+- mobile-safe motion fallback
+- accessibility considerations for reduced motion
+
+The motion must reinforce:
+- credibility
+- quality
+- discipline
+- industry sophistication
+- premium perception
+
+==================================================
+27. PERFORMANCE AND ENGINEERING REQUIREMENTS
+==================================================
+
+Plan for performance and maintainability.
+
+Frontend:
+- image optimization strategy
+- lazy loading where appropriate
+- metadata optimization
+- server/client component discipline
+- minimal animation cost
+- reusable sections
+- accessibility baseline
+
+Backend:
+- structured logging
+- request validation
+- clean errors
+- modular handlers
+- graceful shutdown
+- config-driven setup
+- health endpoints
+- migration support
+- environment-based settings
+- secure admin authentication
+- future storage abstraction
+
+==================================================
+28. DEPLOYMENT AND ENVIRONMENT THINKING
+==================================================
+
+Plan for production readiness.
+
+Frontend:
+- Vercel-ready
+- environment variables
+- API base URL handling
+- SEO and metadata deployment readiness
+
+Backend:
+- Docker-ready
+- cloud/VPS-ready
+- .env support
+- migration execution support
+- reverse proxy readiness
+- CORS planning
+- health checks
+- logging readiness
+
+Media:
+- design the system so that current media references can work simply now but later move to object storage like S3-compatible systems without major refactor
+
+==================================================
+29. SECURITY REQUIREMENTS
+==================================================
+
+Plan baseline security for phase 1.
+
+Include:
+- JWT admin auth
+- password hashing
+- protected admin routes
+- validation
+- sanitization awareness
+- rate limiting planning for forms
+- CORS policy
+- secure environment variable handling
+- audit log awareness for admin actions
+
+==================================================
+30. ANALYTICS AND TRACKING PLACEHOLDERS
+==================================================
+
+Plan basic analytics readiness.
+
+Support future integration for:
+- page views
+- form submission tracking
+- CTA click tracking
+- source attribution
+- lead funnel understanding
+- campaign landing attribution
+
+Do not overcomplicate phase 1, but the architecture should be ready.
+
+==================================================
+31. PHASED IMPLEMENTATION PLAN
+==================================================
+
+Break implementation into clear phases.
+
+Suggested phases:
+
+Phase 1
+Business understanding, information architecture, route map, technical architecture, root structure
+
+Phase 2
+Frontend scaffolding, shared layout, design tokens, section system, basic pages
+
+Phase 3
+Backend scaffolding, config, database connection, auth module, lead module, health module
+
+Phase 4
+Content modules, articles, case studies, clients, factories, site content
+
+Phase 5
+Forms, lead capture, admin dashboard basics, SEO metadata structure
+
+Phase 6
+Animation system, premium interactions, trust visualizations, process diagrams
+
+Phase 7
+Content refinement, polish, responsiveness, performance optimization, production readiness
+
+==================================================
+32. OUTPUT FORMAT I WANT FROM YOU
+==================================================
+
+Return the answer in this exact order:
+
+1. Product understanding
+2. Brand and business positioning
+3. User experience vision
+4. Recommended technical architecture
+5. Root project structure
+6. Detailed frontend folder structure
+7. Detailed backend folder structure
+8. Public website route map
+9. Admin route map
+10. Frontend component map
+11. Backend module map
+12. Database entity plan
+13. API design map
+14. Form and lead capture plan
+15. Branding integration layer
+16. Design system structure
+17. Motion and animation system
+18. SEO and content architecture
+19. Security and performance notes
+20. Deployment and environment strategy
+21. Phased implementation roadmap
+22. Key risks and architectural recommendations
+
+==================================================
+33. FINAL QUALITY BAR
+==================================================
+
+The final result must feel:
+- precise
+- professional
+- commercially aware
+- technically strong
+- premium
+- globally credible
+- aligned with B2B textile sourcing
+- ready to hand to an engineering/design team
+
+Do not make it generic.
+Do not make it tourism.
+Do not make it e-commerce checkout focused.
+Do not make it a factory-only website.
+
+This is a strategic sourcing and consulting brand website for Eye of Ra.
+
+Now produce the full architecture and implementation blueprint.
