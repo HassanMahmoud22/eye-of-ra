@@ -27,7 +27,7 @@ export function Navbar() {
     { name: "Process", path: "/process" },
     { name: "Industries", path: "/industries" },
     { name: "Clients & Partners", path: "/clients-partners" },
-    { name: "Egypt Advantage", path: "/egypt-advantage" },
+    { name: "Founder", path: "/founder" },
   ];
 
   return (
