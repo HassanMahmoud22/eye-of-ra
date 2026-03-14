@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logoIcon from "@assets/WhatsApp_Image_2026-03-14_at_23.23.55_1773524805216.jpeg";
 
 export function Footer() {
   return (
@@ -7,8 +8,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
           <div className="col-span-1 lg:col-span-1">
-            <Link href="/" className="font-display font-bold text-2xl tracking-wider text-foreground mb-6 block">
-              EYE OF RA
+            <Link href="/" className="flex items-center gap-3 mb-6">
+              <img src={logoIcon} alt="Eye of Ra" className="h-8 w-auto mix-blend-screen" />
+              <span className="font-display font-bold text-2xl tracking-wider text-foreground">EYE OF RA</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Your strategic bridge to Egyptian textile excellence. End-to-end garment production support, consulting, and sourcing.

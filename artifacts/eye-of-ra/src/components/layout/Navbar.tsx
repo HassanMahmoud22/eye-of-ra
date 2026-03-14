@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logoIcon from "@assets/WhatsApp_Image_2026-03-14_at_23.23.55_1773524805216.jpeg";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -38,8 +39,9 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="group flex items-center gap-2 z-50">
-          <span className="font-display font-bold text-2xl tracking-wider text-foreground group-hover:text-primary transition-colors">
+        <Link href="/" className="group flex items-center gap-3 z-50">
+          <img src={logoIcon} alt="Eye of Ra" className="h-8 w-auto mix-blend-screen" />
+          <span className="font-display font-bold text-xl tracking-wider text-foreground group-hover:text-primary transition-colors">
             EYE OF RA
           </span>
         </Link>
