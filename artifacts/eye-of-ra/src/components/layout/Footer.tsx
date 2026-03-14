@@ -16,12 +16,12 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display text-lg text-foreground mb-6">Quick Links</h4>
+            <h4 className="font-display text-lg text-foreground mb-6">Company</h4>
             <ul className="space-y-4">
               <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">Our Services</Link></li>
-              <li><Link href="/egypt-advantage" className="text-sm text-muted-foreground hover:text-primary transition-colors">The Egypt Advantage</Link></li>
               <li><Link href="/founder" className="text-sm text-muted-foreground hover:text-primary transition-colors">Founder Story</Link></li>
+              <li><Link href="/clients-partners" className="text-sm text-muted-foreground hover:text-primary transition-colors">Clients & Partners</Link></li>
+              <li><Link href="/egypt-advantage" className="text-sm text-muted-foreground hover:text-primary transition-colors">The Egypt Advantage</Link></li>
             </ul>
           </div>
 
@@ -30,8 +30,8 @@ export function Footer() {
             <ul className="space-y-4">
               <li><Link href="/services/consulting" className="text-sm text-muted-foreground hover:text-primary transition-colors">Brand Consulting</Link></li>
               <li><Link href="/services/sourcing" className="text-sm text-muted-foreground hover:text-primary transition-colors">Material Sourcing</Link></li>
-              <li><Link href="/services/consulting" className="text-sm text-muted-foreground hover:text-primary transition-colors">Production Monitoring</Link></li>
-              <li><Link href="/services/sourcing" className="text-sm text-muted-foreground hover:text-primary transition-colors">Factory Matching</Link></li>
+              <li><Link href="/process" className="text-sm text-muted-foreground hover:text-primary transition-colors">Our Process</Link></li>
+              <li><Link href="/industries" className="text-sm text-muted-foreground hover:text-primary transition-colors">Industries We Serve</Link></li>
             </ul>
           </div>
 

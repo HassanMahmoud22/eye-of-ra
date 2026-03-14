@@ -273,6 +273,27 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-24 bg-[#0d0d0d] border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-display text-white mb-4 tracking-wide">Trusted by Industry Leaders</h2>
+            <p className="text-muted-foreground">Our team has worked alongside some of the world's most recognized fashion brands.</p>
+          </div>
+          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-6 mb-12">
+            {["Calvin Klein", "Tommy Hilfiger", "Hugo Boss", "Macy's", "Banana Republic"].map((brand) => (
+              <div key={brand} className="bg-[#0f0f0f] border border-white/10 hover:border-primary/30 transition-colors p-6 md:p-8 flex items-center justify-center text-center min-h-[80px]">
+                <span className="text-sm md:text-base font-display text-white/80 tracking-wide">{brand}</span>
+              </div>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link href="/clients-partners" className="inline-flex items-center text-primary text-sm tracking-wider hover:text-white transition-colors">
+              VIEW ALL CLIENTS & PARTNERS <ArrowRight className="ml-2 w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 bg-primary relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10 mix-blend-overlay"></div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">

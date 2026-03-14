@@ -30,11 +30,14 @@ Premium corporate website for **Eye of Ra** — an Egyptian Textile Sourcing & B
 - 21 unique images integrated across all pages (both original and new batches)
 
 ### Pages
-- **Home** (`/`) - Premium storytelling with hero, stats, services, advantages, export programs, founder preview, process
+- **Home** (`/`) - Premium storytelling with hero, stats, services, advantages, brand strip, CTA
 - **About** (`/about`) - Company story, mission, vision, values
 - **Services** (`/services`) - Overview of consulting and sourcing pillars
 - **Consulting** (`/services/consulting`) - Detailed consulting services (tech design, production monitoring, QA)
 - **Sourcing** (`/services/sourcing`) - Material sourcing, factory matching, trims
+- **Process** (`/process`) - 4-phase methodology: Concept, Planning, Execution, Delivery
+- **Industries** (`/industries`) - Product categories: Fashion, Sportswear, Uniforms, Accessories
+- **Clients & Partners** (`/clients-partners`) - Brand relationships, client types, manufacturing network
 - **Egypt Advantage** (`/egypt-advantage`) - Why source from Egypt (vertical integration, duty-free, location, sustainability)
 - **Founder** (`/founder`) - Eissa Mohamed's career timeline and story
 - **Contact** (`/contact`) - Contact form with lead capture

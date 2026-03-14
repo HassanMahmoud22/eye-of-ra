@@ -17,6 +17,9 @@ import EgyptAdvantage from "@/pages/EgyptAdvantage";
 import Founder from "@/pages/Founder";
 import Contact from "@/pages/Contact";
 import StartProject from "@/pages/StartProject";
+import ClientsPartners from "@/pages/ClientsPartners";
+import Process from "@/pages/Process";
+import Industries from "@/pages/Industries";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +41,9 @@ function Router() {
           <Route path="/services/sourcing" component={Sourcing} />
           <Route path="/egypt-advantage" component={EgyptAdvantage} />
           <Route path="/founder" component={Founder} />
+          <Route path="/clients-partners" component={ClientsPartners} />
+          <Route path="/process" component={Process} />
+          <Route path="/industries" component={Industries} />
           <Route path="/contact" component={Contact} />
           <Route path="/start-project" component={StartProject} />
           <Route component={NotFound} />
