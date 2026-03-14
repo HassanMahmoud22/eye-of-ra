@@ -22,9 +22,12 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 
 Premium corporate website for **Eye of Ra** — an Egyptian Textile Sourcing & Brand Consulting Agency founded in 2021. B2B business that acts as a strategic bridge between brands and trusted Egyptian factories.
 
-### Brand Colors
+### Brand Identity
 - Primary dark: #1a1a1a (near black)
 - Primary gold: #d7c27e (warm gold accents)
+- Display font: Cinzel (classical serif, Egyptian luxury feel)
+- Body font: Inter (clean sans-serif)
+- 21 unique images integrated across all pages (both original and new batches)
 
 ### Pages
 - **Home** (`/`) - Premium storytelling with hero, stats, services, advantages, export programs, founder preview, process
