@@ -1,0 +1,42 @@
+FROM node:20-alpine AS base
+RUN corepack enable && corepack prepare pnpm@latest --activate
+WORKDIR /app
+
+FROM base AS deps
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY lib/db/package.json lib/db/
+COPY lib/api-spec/package.json lib/api-spec/
+COPY lib/api-zod/package.json lib/api-zod/
+COPY lib/api-client-react/package.json lib/api-client-react/
+COPY artifacts/api-server/package.json artifacts/api-server/
+COPY artifacts/eye-of-ra/package.json artifacts/eye-of-ra/
+COPY artifacts/mockup-sandbox/package.json artifacts/mockup-sandbox/
+COPY scripts/package.json scripts/
+RUN pnpm install --frozen-lockfile
+
+FROM base AS builder
+COPY --from=deps /app/ ./
+COPY . .
+
+ENV NODE_ENV=production
+ENV PORT=3000
+ENV BASE_PATH=/
+
+RUN pnpm --filter @workspace/eye-of-ra run build
+RUN pnpm --filter @workspace/api-server run build
+
+FROM nginx:alpine AS frontend
+COPY --from=builder /app/artifacts/eye-of-ra/dist/public /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+FROM base AS api
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY --from=deps /app/artifacts/api-server/node_modules ./artifacts/api-server/node_modules
+COPY --from=deps /app/lib/db/node_modules ./lib/db/node_modules 2>/dev/null || true
+COPY --from=builder /app/artifacts/api-server/dist ./dist
+COPY --from=builder /app/artifacts/api-server/package.json ./package.json
+
+ENV NODE_ENV=production
+EXPOSE 3001
+CMD ["node", "dist/index.cjs"]

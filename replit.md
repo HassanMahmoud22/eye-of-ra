@@ -123,3 +123,25 @@ Generated Zod schemas: HealthCheckResponse, CreateLeadBody, GetStatsResponse
 ### `lib/api-client-react` (`@workspace/api-client-react`)
 
 Generated React Query hooks and fetch client from OpenAPI spec.
+
+## Docker Deployment
+
+The project includes Docker configuration for production deployment.
+
+### Files
+- `Dockerfile` — Multi-stage build with separate targets for `frontend` (nginx) and `api` (Node.js)
+- `docker-compose.yml` — Three services: nginx (port 80), api (internal port 3001), db (PostgreSQL)
+- `nginx.conf` — Serves frontend static files, proxies `/api/` to the API server
+- `.dockerignore` — Excludes dev files from Docker context
+
+### Usage
+```bash
+docker compose up --build
+```
+
+The site will be available at `http://localhost`. The API is proxied through nginx at `/api/`.
+
+### Environment Variables
+- `DATABASE_URL` — PostgreSQL connection string (set in docker-compose.yml)
+- `PORT` — API server port (default: 3001)
+- PostgreSQL credentials configurable in docker-compose.yml
