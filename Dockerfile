@@ -30,5 +30,5 @@ RUN pnpm --filter @workspace/eye-of-ra run build
 FROM nginx:alpine
 COPY --from=builder /app/artifacts/eye-of-ra/dist/public /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
+EXPOSE 80 3001
 CMD ["nginx", "-g", "daemon off;"]
