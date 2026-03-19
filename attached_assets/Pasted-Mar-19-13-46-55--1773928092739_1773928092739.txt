@@ -1,0 +1,15 @@
+Mar 19 13:46:55                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+Mar 19 13:46:55  
+Mar 19 13:46:55  Error: DATABASE_URL must be set. Did you forget to provision a database?
+Mar 19 13:46:55      at Object.<anonymous> (/app/dist/index.cjs:94:24818)
+Mar 19 13:46:55      at Module._compile (node:internal/modules/cjs/loader:1521:14)
+Mar 19 13:46:55      at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+Mar 19 13:46:55      at Module.load (node:internal/modules/cjs/loader:1266:32)
+Mar 19 13:46:55      at Module._load (node:internal/modules/cjs/loader:1091:12)
+Mar 19 13:46:55      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+Mar 19 13:46:55      at node:internal/main/run_main_module:28:49
+Mar 19 13:46:55  
+Mar 19 13:46:55  Node.js v20.20.1
+Mar 19 13:46:31  ERROR failed health checks after 1 attempts with error Readiness probe failed: dial tcp 100.127.101.1:3001: connect: connection refused
+Mar 19 13:47:23  ERROR component terminated with non-zero exit code: 1,
+Mar 19 13:46:55  ERROR component terminated with non-zero exit code: 1,

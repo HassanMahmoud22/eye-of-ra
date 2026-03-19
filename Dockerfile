@@ -26,19 +26,9 @@ ENV PORT=3000
 ENV BASE_PATH=/
 
 RUN pnpm --filter @workspace/eye-of-ra run build
-RUN pnpm --filter @workspace/api-server run build
 
-FROM nginx:alpine AS frontend
+FROM nginx:alpine
 COPY --from=builder /app/artifacts/eye-of-ra/dist/public /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-FROM node:20-slim AS api
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=deps /app/artifacts/api-server/node_modules ./artifacts/api-server/node_modules/
-COPY --from=builder /app/artifacts/api-server/dist ./dist/
-COPY --from=builder /app/artifacts/api-server/package.json ./package.json
-
-ENV NODE_ENV=production
-EXPOSE 3001
-CMD ["node", "dist/index.cjs"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

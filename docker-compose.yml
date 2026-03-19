@@ -1,47 +1,8 @@
 services:
-  nginx:
+  web:
     build:
       context: .
       dockerfile: Dockerfile
-      target: frontend
     ports:
       - "80:80"
-    depends_on:
-      - api
     restart: unless-stopped
-
-  api:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: api
-    environment:
-      - NODE_ENV=production
-      - PORT=3001
-      - DATABASE_URL=postgresql://eyeofra:eyeofra_secret@db:5432/eyeofra
-    expose:
-      - "3001"
-    depends_on:
-      db:
-        condition: service_healthy
-    restart: unless-stopped
-
-  db:
-    image: postgres:16-alpine
-    environment:
-      - POSTGRES_USER=eyeofra
-      - POSTGRES_PASSWORD=eyeofra_secret
-      - POSTGRES_DB=eyeofra
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U eyeofra -d eyeofra"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
-    restart: unless-stopped
-
-volumes:
-  pgdata:
