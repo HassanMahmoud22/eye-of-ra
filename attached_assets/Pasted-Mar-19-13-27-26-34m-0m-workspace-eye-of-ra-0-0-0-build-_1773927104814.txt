@@ -1,0 +1,45 @@
+Mar 19 13:27:26  [34m│[0m > @workspace/eye-of-ra@0.0.0 build /app/artifacts/eye-of-ra
+Mar 19 13:27:26  [34m│[0m > vite build --config vite.config.ts
+Mar 19 13:27:26  [34m│[0m 
+Mar 19 13:27:27  [34m│[0m /app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js:115
+Mar 19 13:27:27  [34m│[0m 		throw new Error(
+Mar 19 13:27:27  [34m│[0m 		      ^
+Mar 19 13:27:27  [34m│[0m 
+Mar 19 13:27:27  [34m│[0m Error: Cannot find module @rollup/rollup-linux-x64-musl. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+Mar 19 13:27:27  [34m│[0m     at requireWithFriendlyError (/app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js:115:9)
+Mar 19 13:27:27  [34m│[0m     at Object.<anonymous> (/app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js:124:76)
+Mar 19 13:27:27  [34m│[0m     ... 3 lines matching cause stack trace ...
+Mar 19 13:27:27  [34m│[0m     at Module._load (node:internal/modules/cjs/loader:1091:12)
+Mar 19 13:27:27  [34m│[0m     at cjsLoader (node:internal/modules/esm/translators:298:15)
+Mar 19 13:27:27  [34m│[0m     at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:240:7)
+Mar 19 13:27:27  [34m│[0m     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+Mar 19 13:27:27  [34m│[0m     at async ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+Mar 19 13:27:27  [34m│[0m   [cause]: Error: Cannot find module '@rollup/rollup-linux-x64-musl'
+Mar 19 13:27:27  [34m│[0m   Require stack:
+Mar 19 13:27:27  [34m│[0m   - /app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js
+Mar 19 13:27:27  [34m│[0m       at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+Mar 19 13:27:27  [34m│[0m       at Module._load (node:internal/modules/cjs/loader:1038:27)
+Mar 19 13:27:27  [34m│[0m       at Module.require (node:internal/modules/cjs/loader:1289:19)
+Mar 19 13:27:27  [34m│[0m       at require (node:internal/modules/helpers:182:18)
+Mar 19 13:27:27  [34m│[0m       at requireWithFriendlyError (/app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js:97:10)
+Mar 19 13:27:27  [34m│[0m       at Object.<anonymous> (/app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js:124:76)
+Mar 19 13:27:27  [34m│[0m       at Module._compile (node:internal/modules/cjs/loader:1521:14)
+Mar 19 13:27:27  [34m│[0m       at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+Mar 19 13:27:27  [34m│[0m       at Module.load (node:internal/modules/cjs/loader:1266:32)
+Mar 19 13:27:27  [34m│[0m       at Module._load (node:internal/modules/cjs/loader:1091:12) {
+Mar 19 13:27:27  [34m│[0m     code: 'MODULE_NOT_FOUND',
+Mar 19 13:27:27  [34m│[0m     requireStack: [
+Mar 19 13:27:27  [34m│[0m       '/app/node_modules/.pnpm/rollup@4.59.0/node_modules/rollup/dist/native.js'
+Mar 19 13:27:27  [34m│[0m     ]
+Mar 19 13:27:27  [34m│[0m   }
+Mar 19 13:27:27  [34m│[0m }
+Mar 19 13:27:27  [34m│[0m 
+Mar 19 13:27:27  [34m│[0m Node.js v20.20.1
+Mar 19 13:27:27  [34m│[0m /app/artifacts/eye-of-ra:
+Mar 19 13:27:27  [34m│[0m  ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/eye-of-ra@0.0.0 build: `vite build --config vite.config.ts`
+Mar 19 13:27:27  [34m│[0m Exit status 1
+Mar 19 13:27:27  [34m│[0m error building image: error building stage: failed to execute command: waiting for process to exit: exit status 1
+Mar 19 13:27:27  [34m│[0m 
+Mar 19 13:27:27  [34m│[0m command exited with code 1
+Mar 19 13:27:27  [34m│[0m 
+Mar 19 13:27:27  [34m│[0m [31m ✘ build failed[0m

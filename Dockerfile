@@ -12,11 +12,16 @@ COPY artifacts/api-server/package.json artifacts/api-server/
 COPY artifacts/eye-of-ra/package.json artifacts/eye-of-ra/
 COPY artifacts/mockup-sandbox/package.json artifacts/mockup-sandbox/
 COPY scripts/package.json scripts/
-RUN pnpm install --frozen-lockfile
+
+RUN sed -i "/>'\\-'$/d" pnpm-workspace.yaml && \
+    sed -i '/> "-"$/d' pnpm-workspace.yaml
+RUN pnpm install --no-frozen-lockfile
 
 FROM base AS builder
 COPY --from=deps /app/ ./
 COPY . .
+RUN sed -i "/>'\\-'$/d" pnpm-workspace.yaml && \
+    sed -i '/> "-"$/d' pnpm-workspace.yaml
 
 ENV NODE_ENV=production
 ENV PORT=3000
