@@ -3,9 +3,9 @@ import { Link } from "wouter";
 import { PageHero } from "@/components/ui/PageHero";
 import { ArrowRight } from "lucide-react";
 import heroImg from "@assets/apparel-artistry-garment-manufacturer-seamstress-intricate-pro_1773518895807.jpg";
-import tailorImg from "@assets/top-view-tailor-items-silk_1773519582129.jpg";
-import sewingImg from "@assets/woman-working-sewing-machine-with-blue-fabric_1773518895806.jpg";
-import tagsImg from "@assets/fabric-clothing-tag-labels-mockup_1773519582128.jpg";
+import sketchesImg from "@assets/close-up-suitmaker-comparing-sketches_1773929636472.jpg";
+import factoryImg from "@assets/garment-factory-interior-with-sewing-machines-tailoring-worksh_1773929636474.jpg";
+import dressFormImg from "@assets/front-view-dress-form-with-measuring-tape_1773929636473.jpg";
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 30 },
@@ -104,7 +104,7 @@ export default function Process() {
             className="group relative overflow-hidden border border-white/10"
           >
             <div className="aspect-[3/2] overflow-hidden">
-              <img src={tailorImg} alt="Concept and planning tools" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src={sketchesImg} alt="Design concept and sketches" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -119,7 +119,7 @@ export default function Process() {
             className="group relative overflow-hidden border border-white/10"
           >
             <div className="aspect-[3/2] overflow-hidden">
-              <img src={sewingImg} alt="Production execution" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src={factoryImg} alt="Garment factory production line" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -134,7 +134,7 @@ export default function Process() {
             className="group relative overflow-hidden border border-white/10"
           >
             <div className="aspect-[3/2] overflow-hidden">
-              <img src={tagsImg} alt="Final delivery and packaging" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src={dressFormImg} alt="Quality control and delivery" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
