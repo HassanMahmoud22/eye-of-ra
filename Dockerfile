@@ -1,4 +1,4 @@
-FROM node:20-alpine AS base
+FROM node:20-slim AS base
 RUN corepack enable && corepack prepare pnpm@latest --activate
 WORKDIR /app
 
@@ -13,15 +13,13 @@ COPY artifacts/eye-of-ra/package.json artifacts/eye-of-ra/
 COPY artifacts/mockup-sandbox/package.json artifacts/mockup-sandbox/
 COPY scripts/package.json scripts/
 
-RUN sed -i "/>'\\-'$/d" pnpm-workspace.yaml && \
-    sed -i '/> "-"$/d' pnpm-workspace.yaml
+RUN sed -i "/: '-'$/d" pnpm-workspace.yaml
 RUN pnpm install --no-frozen-lockfile
 
 FROM base AS builder
 COPY --from=deps /app/ ./
 COPY . .
-RUN sed -i "/>'\\-'$/d" pnpm-workspace.yaml && \
-    sed -i '/> "-"$/d' pnpm-workspace.yaml
+COPY --from=deps /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
 
 ENV NODE_ENV=production
 ENV PORT=3000
@@ -34,11 +32,11 @@ FROM nginx:alpine AS frontend
 COPY --from=builder /app/artifacts/eye-of-ra/dist/public /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-FROM base AS api
+FROM node:20-slim AS api
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=deps /app/artifacts/api-server/node_modules ./artifacts/api-server/node_modules
-COPY --from=deps /app/lib/db/node_modules ./lib/db/node_modules 2>/dev/null || true
+COPY --from=deps /app/lib/db/node_modules ./lib/db/node_modules 2>/dev/null; true
 COPY --from=builder /app/artifacts/api-server/dist ./dist
 COPY --from=builder /app/artifacts/api-server/package.json ./package.json
 
