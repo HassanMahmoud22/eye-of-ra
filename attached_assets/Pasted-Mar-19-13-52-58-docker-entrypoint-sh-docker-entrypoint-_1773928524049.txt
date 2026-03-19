@@ -1,0 +1,75 @@
+Mar 19 13:52:58  /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+Mar 19 13:52:58  /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+Mar 19 13:52:58  /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+Mar 19 13:52:58  10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+Mar 19 13:52:58  10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+Mar 19 13:52:58  /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+Mar 19 13:52:58  /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+Mar 19 13:52:58  /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+Mar 19 13:52:58  /docker-entrypoint.sh: Configuration complete; ready for start up
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: using the "epoll" event method
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: nginx/1.29.6
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: OS: Linux 4.4.0
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker processes
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 24
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 25
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 26
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 27
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 28
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 29
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 30
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 31
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:57  /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+Mar 19 13:52:57  /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+Mar 19 13:52:57  /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+Mar 19 13:52:57  10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+Mar 19 13:52:58  10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+Mar 19 13:52:58  /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+Mar 19 13:52:58  /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+Mar 19 13:52:58  /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+Mar 19 13:52:58  /docker-entrypoint.sh: Configuration complete; ready for start up
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: using the "epoll" event method
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: nginx/1.29.6
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: OS: Linux 4.4.0
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker processes
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 24
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 25
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 26
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 27
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 28
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 29
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 30
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: start worker process 31
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:52:58  2026/03/19 13:52:58 [notice] 1#1: signal 29 (SIGIO) received
+Mar 19 13:54:32  ERROR failed health checks after 12 attempts with error Readiness probe failed: dial tcp 100.127.59.240:3001: connect: connection refused
+Mar 19 13:54:38  ERROR failed health checks after 12 attempts with error Readiness probe failed: dial tcp 100.127.11.96:3001: connect: connection refused
