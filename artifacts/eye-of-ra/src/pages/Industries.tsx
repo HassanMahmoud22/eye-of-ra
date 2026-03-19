@@ -4,7 +4,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { ArrowRight } from "lucide-react";
 import heroImg from "@assets/clothing-rack-fashion-shop_1773518895806.jpg";
 import leatherImg from "@assets/closeup-brown-leather-bag-clothes-hanged-white-hangers_1773518895806.jpg";
-import sewingImg from "@assets/woman-working-sewing-machine-with-blue-fabric_1773518895806.jpg";
+import soccerJerseysImg from "@assets/variety-colorful-soccer-jerseys-hanging-team-locker-room-conce_1773929261294.jpg";
 import feltTagsImg from "@assets/closeup-square-felt-tags-with-jute-twine_1773519582128.jpg";
 import suitsImg from "@assets/row-mens-suits-jackets-hanging-rack-display_1773518895806.jpg";
 
@@ -27,7 +27,7 @@ const industries = [
   },
   {
     title: "Sportswear & Activewear",
-    image: sewingImg,
+    image: soccerJerseysImg,
     items: ["Performance apparel", "Training wear", "Lifestyle sportswear"],
     desc: "Technical fabrics, performance construction, and lifestyle aesthetics — we source and manage production for the activewear segment."
   },
