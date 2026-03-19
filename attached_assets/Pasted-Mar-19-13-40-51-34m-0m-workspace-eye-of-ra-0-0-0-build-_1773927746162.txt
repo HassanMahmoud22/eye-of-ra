@@ -1,0 +1,92 @@
+Mar 19 13:40:51  [34m│[0m > @workspace/eye-of-ra@0.0.0 build /app/artifacts/eye-of-ra
+Mar 19 13:40:51  [34m│[0m > vite build --config vite.config.ts
+Mar 19 13:40:51  [34m│[0m 
+Mar 19 13:40:52  [34m│[0m vite v7.3.1 building client environment for production...
+Mar 19 13:40:52  [34m│[0m transforming...
+Mar 19 13:40:52  [34m│[0m src/components/ui/tooltip.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+Mar 19 13:40:56  [34m│[0m ✓ 2221 modules transformed.
+Mar 19 13:40:56  [34m│[0m rendering chunks...
+Mar 19 13:40:57  [34m│[0m computing gzip size...
+Mar 19 13:40:57  [34m│[0m dist/public/index.html                                                                                             0.73 kB │ gzip:   0.41 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/eye_of_ra_logo_1@4x_1773525288824-BrdCE8gg.png                                                150.20 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/WhatsApp_Image_2026-03-14_at_23.23.57_1773524805216-rncW49p9.jpeg                             495.59 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/WhatsApp_Image_2026-03-14_at_23.23.57_(1)_1773524805215-BpvN9R0k.jpeg                         526.63 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/high-angle-thimbles-with-scissors-textile_1773519582129-C9wWS3Aa.jpg                        1,377.78 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/high-angle-thimble-silk_1773518895807-C4zxSBGh.jpg                                          2,218.37 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/close-up-texture-linen-fabric_1773518895807-Chx6KBbA.jpg                                    2,464.13 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/man-brown-shirt-is-seen-working-piece-clothing-this-image-can-_1773519582128-DrlBTLa_.jpg   2,570.80 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/fabric-clothing-tag-labels-mockup_1773519582128-yqUzaS-g.jpg                                2,807.02 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/top-view-tailor-items-silk_1773519582129-DNzZldV2.jpg                                       3,300.36 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/apparel-artistry-garment-manufacturer-seamstress-intricate-pro_1773518895807-BXMbWVK6.jpg   3,347.97 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/closeup-square-felt-tags-with-jute-twine_1773519582128-CV9p4ZIH.jpg                         3,500.24 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/expert-suitmaker-tailoring-studio_1773518895805-CeGyJyOZ.jpg                                6,116.42 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/industrial-port-container-yard_1773518895806-BOeKSC7E.jpg                                   6,388.53 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/man-woman-looking-tablet-that-is-display_1773518895806-em5yaVTl.jpg                         6,710.13 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/female-fashion-designer-looking-drawings-sketches-that-are-pin_1773518895807-CgfXupoQ.jpg   7,135.79 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/closeup-brown-leather-bag-clothes-hanged-white-hangers_1773518895806-Dj_sMw-x.jpg           7,780.07 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/row-mens-suits-jackets-hanging-rack-display_1773518895806-DUwxGo1x.jpg                      9,623.60 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/old-craftsman-trainee-working_1773518895806-D48bAvLH.jpg                                   10,089.69 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/middle-eastern-worker-checks-stock-tablet-clothing-store_1773518895806-CR0FBOHP.jpg        11,186.24 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/garment-production-process-armir-textile-factory-modern-indust_1773518895807-DXDI4--c.jpg  11,672.10 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/woman-working-sewing-machine-with-blue-fabric_1773518895806-hDNZzZmS.jpg                   12,644.86 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/empty-modern-room-with-furniture_1773518895807-DMQ1DIT7.jpg                                15,184.53 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/thread-rough-wrinkled-design-element-studio-shot_1773518895806-DnDeIPQI.jpg                18,081.18 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/clothing-rack-fashion-shop_1773518895806-QgtVyKNE.jpg                                      27,525.93 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/index-BtlXdY_2.css                                                                            127.71 kB │ gzip:  19.85 kB
+Mar 19 13:40:57  [34m│[0m dist/public/assets/index-BkhbnFVU.js                                                                             606.41 kB │ gzip: 184.44 kB
+Mar 19 13:40:57  [34m│[0m ✓ built in 5.23s
+Mar 19 13:40:57  [34m│[0m 
+Mar 19 13:40:57  [34m│[0m (!) Some chunks are larger than 500 kB after minification. Consider:
+Mar 19 13:40:57  [34m│[0m - Using dynamic import() to code-split the application
+Mar 19 13:40:57  [34m│[0m - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+Mar 19 13:40:57  [34m│[0m - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+Mar 19 13:40:57  [34m│[0m [36mINFO[0m[0079] Taking snapshot of files...                  
+Mar 19 13:41:01  [34m│[0m [36mINFO[0m[0083] Pushing layer <registry-uri-14> to cache now 
+Mar 19 13:41:01  [34m│[0m [36mINFO[0m[0083] Pushing image to <registry-uri-15> 
+Mar 19 13:41:02  [34m│[0m [36mINFO[0m[0083] RUN pnpm --filter @workspace/api-server run build 
+Mar 19 13:41:02  [34m│[0m [36mINFO[0m[0084] Cmd: /bin/sh                                 
+Mar 19 13:41:02  [34m│[0m [36mINFO[0m[0084] Args: [-c pnpm --filter @workspace/api-server run build] 
+Mar 19 13:41:02  [34m│[0m [36mINFO[0m[0084] Running: [/bin/sh -c pnpm --filter @workspace/api-server run build] 
+Mar 19 13:41:03  [34m│[0m 
+Mar 19 13:41:03  [34m│[0m > @workspace/api-server@0.0.0 build /app/artifacts/api-server
+Mar 19 13:41:03  [34m│[0m > tsx ./build.ts
+Mar 19 13:41:03  [34m│[0m 
+Mar 19 13:41:03  [34m│[0m building server...
+Mar 19 13:41:04  [34m│[0m 
+Mar 19 13:41:04  [34m│[0m   dist/index.cjs  1.2mb ⚠️
+Mar 19 13:41:04  [34m│[0m 
+Mar 19 13:41:04  [34m│[0m ⚡ Done in 215ms
+Mar 19 13:41:04  [34m│[0m [36mINFO[0m[0086] Taking snapshot of files...                  
+Mar 19 13:41:04  [34m│[0m [36mINFO[0m[0086] Pushing layer <registry-uri-16> to cache now 
+Mar 19 13:41:04  [34m│[0m [36mINFO[0m[0086] Pushing image to <registry-uri-17> 
+Mar 19 13:41:05  [34m│[0m [36mINFO[0m[0087] Pushed <registry-uri-18> 
+Mar 19 13:41:09  [34m│[0m [36mINFO[0m[0090] Pushed <registry-uri-19> 
+Mar 19 13:41:09  [34m│[0m [36mINFO[0m[0090] Saving file app/artifacts/eye-of-ra/dist/public for later use 
+Mar 19 13:41:09  [34m│[0m [36mINFO[0m[0090] Saving file app/artifacts/api-server/dist for later use 
+Mar 19 13:41:09  [34m│[0m [36mINFO[0m[0090] Saving file app/artifacts/api-server/package.json for later use 
+Mar 19 13:41:09  [34m│[0m [36mINFO[0m[0090] Deleting filesystem...                       
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0091] Retrieving image manifest nginx:alpine       
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0091] Returning cached image manifest              
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0091] Retrieving image manifest nginx:alpine       
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0091] Returning cached image manifest              
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0091] Executing 0 build triggers                   
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0091] Building stage 'nginx:alpine' [idx: '3', base-idx: '-1'] 
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0092] Unpacking rootfs as cmd COPY --from=builder /app/artifacts/eye-of-ra/dist/public /usr/share/nginx/html requires it. 
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0092] Initializing snapshotter ...                 
+Mar 19 13:41:10  [34m│[0m [36mINFO[0m[0092] Taking snapshot of full filesystem...        
+Mar 19 13:41:11  [34m│[0m [36mINFO[0m[0093] COPY --from=builder /app/artifacts/eye-of-ra/dist/public /usr/share/nginx/html 
+Mar 19 13:41:11  [34m│[0m [36mINFO[0m[0093] Taking snapshot of files...                  
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] COPY nginx.conf /etc/nginx/conf.d/default.conf 
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Taking snapshot of files...                  
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Deleting filesystem...                       
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Retrieving image manifest node:20-slim       
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Returning cached image manifest              
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Retrieving image manifest node:20-slim       
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Returning cached image manifest              
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Executing 0 build triggers                   
+Mar 19 13:41:14  [34m│[0m [36mINFO[0m[0096] Building stage 'node:20-slim' [idx: '4', base-idx: '-1'] 
+Mar 19 13:41:17  [34m│[0m error building image: error building stage: failed to optimize instructions: failed to get files used from context: when specifying multiple sources in a COPY command, destination must be a directory and end in '/'
+Mar 19 13:41:17  [34m│[0m 
+Mar 19 13:41:17  [34m│[0m command exited with code 1
+Mar 19 13:41:17  [34m│[0m 
+Mar 19 13:41:17  [34m│[0m [31m ✘ build failed[0m

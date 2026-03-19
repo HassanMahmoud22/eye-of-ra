@@ -35,9 +35,8 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 FROM node:20-slim AS api
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
-COPY --from=deps /app/artifacts/api-server/node_modules ./artifacts/api-server/node_modules
-COPY --from=deps /app/lib/db/node_modules ./lib/db/node_modules 2>/dev/null; true
-COPY --from=builder /app/artifacts/api-server/dist ./dist
+COPY --from=deps /app/artifacts/api-server/node_modules ./artifacts/api-server/node_modules/
+COPY --from=builder /app/artifacts/api-server/dist ./dist/
 COPY --from=builder /app/artifacts/api-server/package.json ./package.json
 
 ENV NODE_ENV=production
