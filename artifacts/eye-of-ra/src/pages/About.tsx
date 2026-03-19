@@ -1,7 +1,7 @@
 import { motion, type Variants } from "framer-motion";
 import { PageHero } from "@/components/ui/PageHero";
 import aboutImg from "@assets/old-craftsman-trainee-working_1773518895806.jpg";
-import workerImg from "@assets/middle-eastern-worker-checks-stock-tablet-clothing-store_1773518895806.jpg";
+import sewingMachineImg from "@assets/old-sewing-machine_1773929145435.jpg";
 import craftImg from "@assets/man-brown-shirt-is-seen-working-piece-clothing-this-image-can-_1773519582128.jpg";
 
 const fadeInUp: Variants = {
@@ -37,7 +37,7 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <img src={workerImg} alt="Quality inspection" className="w-full h-[350px] object-cover border border-white/10" />
+              <img src={sewingMachineImg} alt="Textile craftsmanship" className="w-full h-[350px] object-cover border border-white/10" />
             </motion.div>
           </div>
 
