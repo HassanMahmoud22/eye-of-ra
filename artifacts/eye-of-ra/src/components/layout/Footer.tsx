@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import logoWhiteGold from "@assets/eye_of_ra_logo_1@4x_1773525288824.png";
+import logoImg from "@assets/logo_on_light@4x_1774442050463.png";
 
 export function Footer() {
   return (
@@ -9,7 +9,7 @@ export function Footer() {
           
           <div className="col-span-1 lg:col-span-1">
             <Link href="/" className="block mb-6">
-              <img src={logoWhiteGold} alt="Eye of Ra" className="h-10 w-auto" />
+              <img src={logoImg} alt="Eye of Ra" className="h-10 w-auto" />
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Your strategic bridge to Egyptian textile excellence. End-to-end garment production support, consulting, and sourcing.

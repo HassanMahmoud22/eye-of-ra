@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoWhiteGold from "@assets/eye_of_ra_logo_1@4x_1773525288824.png";
+import logoImg from "@assets/logo_on_light@4x_1774442050463.png";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -40,7 +40,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="z-50">
-          <img src={logoWhiteGold} alt="Eye of Ra" className="h-10 w-auto" />
+          <img src={logoImg} alt="Eye of Ra" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
