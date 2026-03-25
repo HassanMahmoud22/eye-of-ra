@@ -14,8 +14,21 @@ export default function EgyptAdvantage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
         <div className="prose prose-invert prose-lg max-w-4xl mx-auto mb-20 text-center">
           <p className="lead text-xl text-muted-foreground">
-            Egypt is rapidly becoming the sourcing destination of choice for global apparel brands seeking agility, quality, and margin improvement. Here is why producing in Egypt provides a distinct competitive edge.
+            Egypt has long been recognized as a global textile center, known for its high-quality cotton and garment manufacturing heritage. Its strategic geographic location at the crossroads of Africa, Europe, and Asia enables faster shipping times and more efficient logistics for international brands, making Egypt an attractive sourcing destination for companies seeking both quality manufacturing and reliable market access.
           </p>
+        </div>
+
+        <div className="bg-[#0f0f0f] border border-white/10 p-10 md:p-12 text-center mb-24">
+          <p className="text-primary text-lg font-display tracking-wide mb-4">Fully Integrated Textile Ecosystem</p>
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-300">
+            {["Fabrics", "Trims", "Accessories", "Garment Manufacturing", "Packaging"].map((item) => (
+              <span key={item} className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                {item}
+              </span>
+            ))}
+          </div>
+          <p className="text-muted-foreground mt-6">This vertical integration significantly reduces production lead times.</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">

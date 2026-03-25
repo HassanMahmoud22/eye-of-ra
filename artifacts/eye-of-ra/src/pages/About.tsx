@@ -14,21 +14,30 @@ export default function About() {
     <div className="min-h-screen pb-24">
       <PageHero 
         title="Our Story" 
-        subtitle="Bridging global fashion brands with Egypt's heritage of textile excellence since 2021."
+        subtitle="Your brand partner for apparel manufacturing in Egypt."
         imageSrc={aboutImg}
       />
 
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
         <div className="prose prose-invert prose-lg mx-auto">
           <p className="lead text-xl text-primary font-display text-center mb-16 tracking-wide">
-            "Eye of Ra was founded on a simple premise: international apparel brands need a reliable, strategic partner on the ground in Egypt to truly unlock the country's manufacturing potential."
+            "We're brands' partners, not just a sourcing office."
           </p>
+
+          <div className="text-center mb-20 max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+              Eye of Ra is an Egyptian Textile Sourcing and Brand Consulting agency founded in 2021. We act as a strategic bridge between brands and manufacturing partners, providing end-to-end garment production support from concept to final delivery.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Eye of Ra is not just a sourcing office. We are brand partners. We combine brand consulting, textile sourcing, production management, and quality control to guide brands from idea to finished product.
+            </p>
+          </div>
 
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
             <div>
-              <h2 className="text-3xl font-display mb-6 tracking-wide">The Vision</h2>
+              <h2 className="text-3xl font-display mb-6 tracking-wide">Our Vision</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Founded in 2021 by Eissa Mohamed, an industry veteran with over 25 years of experience spanning global giants like PVH (Calvin Klein, Tommy Hilfiger) and Macy's, Eye of Ra serves as your dedicated sourcing and consulting agency. We don't just connect you to factories; we immerse ourselves in your brand's DNA to ensure that every stitch, every fabric choice, and every production run meets international standards.
+                To position Egypt as a global hub for garment manufacturing and become the trusted gateway connecting fashion brands to Egypt's textile ecosystem and global markets.
               </p>
             </div>
             <motion.div
@@ -54,7 +63,7 @@ export default function About() {
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl font-display mb-6 tracking-wide">Our Mission</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To provide end-to-end garment production support, technical consulting, and material sourcing that empowers global brands to manufacture with confidence. We demystify the supply chain, enforce stringent quality control, and open doors to duty-free export programs, transforming Egypt from a sourcing destination into your competitive advantage.
+                To simplify the manufacturing journey for fashion brands by providing reliable sourcing, expert consulting, and transparent production management — while ensuring quality, efficiency, and competitive pricing.
               </p>
             </div>
           </div>

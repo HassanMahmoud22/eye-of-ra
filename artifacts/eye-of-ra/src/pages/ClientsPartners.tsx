@@ -27,7 +27,7 @@ const brandLogos = [
 const clientTypes = [
   {
     title: "Startup Brands",
-    desc: "Launching their first collection with confidence. We provide the guidance and infrastructure to bring ideas to life without the steep learning curve.",
+    desc: "Launching their first collection. We provide the guidance and infrastructure to bring ideas to life without the steep learning curve.",
     highlight: "First collection support"
   },
   {
@@ -55,7 +55,7 @@ export default function ClientsPartners() {
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-display text-white mb-6 tracking-wide">Trusted by Leading Brands</h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Our founder and team have built deep relationships with some of the world's most recognized fashion houses, bringing that caliber of expertise to every project we undertake.
+            Eye of Ra has worked with a diverse range of brands, supporting both emerging and established companies through consulting, sourcing, and production management. Our experience spans local and international projects, helping brands successfully bring their collections to market.
           </p>
         </div>
 

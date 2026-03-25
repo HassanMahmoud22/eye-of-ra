@@ -64,7 +64,7 @@ export default function Home() {
               variants={fadeInUp}
               className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light leading-relaxed"
             >
-              End-to-end garment production support, technical consulting, and material sourcing for premium global apparel brands.
+              Sourcing, brand consulting, and production management for premium global apparel brands.
             </motion.p>
             
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -135,7 +135,7 @@ export default function Home() {
                 <span className="text-primary text-xs font-medium tracking-[0.2em] uppercase mb-4 block">From Sketch to Shelf</span>
                 <h3 className="text-3xl font-display text-white mb-4 tracking-wide">Brand Consulting</h3>
                 <p className="text-muted-foreground mb-8 line-clamp-3">
-                  Technical design, tech packs, production monitoring (WIP), costing optimization, and rigorous quality assurance at every stage.
+                  Technical garment design, tech pack preparation, production planning, costing strategies, and brand guidance at every stage.
                 </p>
                 <Link href="/services/consulting" className="inline-flex items-center text-primary font-medium hover:text-white transition-colors text-sm tracking-wider">
                   EXPLORE CONSULTING <ArrowRight className="ml-2 w-4 h-4" />
@@ -160,9 +160,9 @@ export default function Home() {
               </div>
               <div className="absolute inset-0 p-8 md:p-12 flex flex-col justify-end">
                 <span className="text-primary text-xs font-medium tracking-[0.2em] uppercase mb-4 block">Materials That Make a Statement</span>
-                <h3 className="text-3xl font-display text-white mb-4 tracking-wide">Material Sourcing</h3>
+                <h3 className="text-3xl font-display text-white mb-4 tracking-wide">Textile Sourcing</h3>
                 <p className="text-muted-foreground mb-8 line-clamp-3">
-                  Premium natural fibers, organic Egyptian cotton, trims, sustainable textile solutions, and strategic factory matching.
+                  Sourcing premium fabrics including Egyptian cotton and high-performance materials, matching brands with trusted manufacturers.
                 </p>
                 <Link href="/services/sourcing" className="inline-flex items-center text-primary font-medium hover:text-white transition-colors text-sm tracking-wider">
                   EXPLORE SOURCING <ArrowRight className="ml-2 w-4 h-4" />
@@ -186,14 +186,14 @@ export default function Home() {
                 The Egypt Advantage
               </motion.h2>
               <motion.p variants={fadeInUp} className="text-muted-foreground text-lg mb-10 leading-relaxed">
-                Unlock global competitiveness with Egypt's strategic position in the textile industry. We guide you through duty-free export programs and vertically integrated manufacturing.
+                Egypt has long been recognized as a global textile center, known for its high-quality cotton and garment manufacturing heritage. Its strategic location at the crossroads of Africa, Europe, and Asia enables faster shipping and more efficient logistics.
               </motion.p>
               
               <div className="space-y-6">
                 {[
-                  { icon: <Globe2 className="w-6 h-6 text-primary"/>, title: "Duty-Free Export Access", desc: "QIZ, EURO1, EUROMED, Agadir, and COMESA agreements." },
-                  { icon: <ShieldCheck className="w-6 h-6 text-primary"/>, title: "Vertical Integration", desc: "From raw Egyptian cotton to spinning, weaving, and final garment assembly." },
-                  { icon: <Leaf className="w-6 h-6 text-primary"/>, title: "Sustainability", desc: "Eco-friendly facilities and organic material sourcing." },
+                  { icon: <Globe2 className="w-6 h-6 text-primary"/>, title: "Duty-Free Export Access", desc: "QIZ, EURO1, EUROMED, Agadir, and COMESA trade agreements." },
+                  { icon: <ShieldCheck className="w-6 h-6 text-primary"/>, title: "Vertical Integration", desc: "Fabrics, trims, accessories, garment manufacturing, and packaging — all within Egypt." },
+                  { icon: <Leaf className="w-6 h-6 text-primary"/>, title: "Reduced Lead Times", desc: "Fully integrated textile ecosystem significantly reduces production lead times." },
                 ].map((item, i) => (
                   <motion.div key={i} variants={fadeInUp} className="flex gap-4">
                     <div className="mt-1">{item.icon}</div>

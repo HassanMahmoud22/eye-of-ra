@@ -23,9 +23,9 @@ const phases = [
   {
     number: "02",
     title: "Planning",
-    subtitle: "From creative brief to production blueprint.",
-    description: "We translate your concept into a detailed production plan — comprehensive tech packs, material specifications, factory selection, and timeline mapping. Every decision is made to optimize cost, quality, and delivery.",
-    items: ["Tech pack development", "Material specification", "Factory matching & selection", "Cost optimization & timeline"],
+    subtitle: "Before production begins, preparation is key.",
+    description: "During the development stage, we transform ideas into precise production guidelines through fabric sourcing, trim selection, and detailed technical documentation. This structured preparation creates confidence for both the brand and the factory, ensuring the product can be executed accurately and efficiently.",
+    items: ["Fabric sourcing & trim selection", "Technical documentation", "Factory matching & selection", "Cost optimization & timeline"],
   },
   {
     number: "03",
